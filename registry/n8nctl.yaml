@@ -1,0 +1,10 @@
+name: n8nctl
+binary: n8nctl
+description: Manage n8n workflows, executions, credentials, and variables across multiple instances.
+wraps: n8n public API
+repo: https://github.com/jjuanrivvera/n8n-cli
+author: jjuanrivvera
+install:
+  go: go install github.com/jjuanrivvera/n8n-cli/cmd/n8nctl@latest
+tags: [automation, devops, ai-agent]
+agent_ready: true

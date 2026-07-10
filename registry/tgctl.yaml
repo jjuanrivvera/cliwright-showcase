@@ -1,0 +1,10 @@
+name: tgctl
+binary: tgctl
+description: The Telegram Bot API from the terminal — send, receive, and manage bots and updates.
+wraps: Telegram Bot API
+repo: https://github.com/jjuanrivvera/tgctl
+author: jjuanrivvera
+install:
+  go: go install github.com/jjuanrivvera/tgctl/cmd/tgctl@latest
+tags: [messaging, bots, ai-agent]
+agent_ready: true

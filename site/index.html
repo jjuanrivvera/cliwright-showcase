@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>cliwright — CLIs built with the cliwright generator</title>
+  <meta name="description" content="A registry of agent-native command-line tools built with cliwright. Add yours with a pull request." />
+  <meta property="og:title" content="cliwright" />
+  <meta property="og:description" content="Agent-native CLIs for any API, built to one production-grade standard. Add yours with a PR." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ctext y='14' font-size='14'%3E%E2%8C%A8%EF%B8%8F%3C/text%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <button id="theme" class="theme" title="Toggle theme" aria-label="Toggle theme">◐</button>
+      <div class="prompt"><span class="sigil">$</span> cliwright <span class="cursor">▋</span></div>
+      <h1>Build a real CLI for any API.</h1>
+      <p class="tag">
+        A registry of agent-native command-line tools built with
+        <a href="https://github.com/jjuanrivvera/cliwright">cliwright</a> — each one forged to a single
+        production-grade standard: keyring auth, resilient client, MCP server, agent guard, signed releases.
+      </p>
+      <div class="cta">
+        <a class="btn primary" href="https://github.com/jjuanrivvera/cliwright">Get cliwright</a>
+        <a class="btn" href="#add">Add your CLI</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="bar">
+      <input id="q" type="search" placeholder="filter by name, API, or tag…" autocomplete="off" spellcheck="false" />
+      <span id="count" class="muted"></span>
+    </div>
+    <ul id="grid" class="grid" aria-live="polite"></ul>
+    <p id="empty" class="muted empty" hidden>No tools match that filter.</p>
+  </main>
+
+  <section id="add" class="wrap add">
+    <h2><span class="sigil">#</span> Add your CLI</h2>
+    <p>Built something with cliwright? Add it in three steps — a bot validates the entry on your PR:</p>
+    <ol>
+      <li>Fork <a href="https://github.com/jjuanrivvera/cliwright-showcase">cliwright-showcase</a>.</li>
+      <li>Drop <code>registry/&lt;your-tool&gt;.yaml</code> (copy an existing one).</li>
+      <li>Open a PR. Green check = it merges and appears here.</li>
+    </ol>
+    <pre class="sample"><code># registry/mytool.yaml
+name: mytool
+binary: mytool
+description: One sentence — what it does.
+wraps: The API it wraps
+repo: https://github.com/you/mytool
+author: your-github-handle
+install:
+  go: go install github.com/you/mytool/cmd/mytool@latest
+tags: [devops, ai-agent]</code></pre>
+  </section>
+
+  <footer class="wrap">
+    <span>Made with <a href="https://github.com/jjuanrivvera/cliwright">cliwright</a>.</span>
+    <span class="muted">Entries are community-submitted; each links to its own source.</span>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

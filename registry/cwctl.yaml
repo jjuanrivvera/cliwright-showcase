@@ -1,0 +1,11 @@
+name: cwctl
+binary: cwctl
+description: Drive the full Chatwoot API — conversations, contacts, reports, plus backup/restore and cross-instance sync.
+wraps: Chatwoot
+repo: https://github.com/jjuanrivvera/cwctl
+author: jjuanrivvera
+install:
+  brew: brew install jjuanrivvera/cwctl/cwctl-cli
+  go: go install github.com/jjuanrivvera/cwctl/cmd/cwctl@latest
+tags: [customer-support, messaging, ai-agent]
+agent_ready: true

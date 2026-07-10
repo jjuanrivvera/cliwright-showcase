@@ -1,0 +1,11 @@
+name: lsqueezy
+binary: lsqueezy
+description: Lemon Squeezy (JSON:API) from the terminal — products, orders, licenses, and subscriptions.
+wraps: Lemon Squeezy API
+repo: https://github.com/jjuanrivvera/lemon-squeezy-cli
+author: jjuanrivvera
+install:
+  brew: brew install jjuanrivvera/lemon-squeezy-cli/lsqueezy
+  go: go install github.com/jjuanrivvera/lemon-squeezy-cli/cmd/lsqueezy@latest
+tags: [payments, saas, ai-agent]
+agent_ready: true

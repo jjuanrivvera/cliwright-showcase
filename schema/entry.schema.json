@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cliwright.jjuanrivvera.com/schema/entry.schema.json",
+  "title": "cliwright showcase entry",
+  "description": "One CLI built with cliwright. Add yours by dropping a file in registry/ via PR.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["name", "binary", "description", "wraps", "repo", "author", "install"],
+  "properties": {
+    "name": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]{1,39}$",
+      "description": "Project name (kebab-case). Must match the filename: registry/<name>.yaml"
+    },
+    "binary": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9._-]{0,39}$",
+      "description": "The command users type, e.g. cwctl"
+    },
+    "description": {
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 160,
+      "description": "One sentence: what it does. No marketing."
+    },
+    "wraps": {
+      "type": "string",
+      "minLength": 2,
+      "maxLength": 60,
+      "description": "The API/service it wraps, e.g. Chatwoot, Slack Web API"
+    },
+    "repo": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https://",
+      "description": "Public source repository URL"
+    },
+    "homepage": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https://",
+      "description": "Docs or landing page (optional)"
+    },
+    "author": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9-]{1,39}$",
+      "description": "GitHub handle of the maintainer"
+    },
+    "install": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": false,
+      "description": "At least one install method.",
+      "properties": {
+        "brew": { "type": "string", "description": "brew install ..." },
+        "scoop": { "type": "string", "description": "scoop install ..." },
+        "go": { "type": "string", "description": "go install ...@latest" },
+        "script": { "type": "string", "description": "curl | sh one-liner" }
+      }
+    },
+    "tags": {
+      "type": "array",
+      "maxItems": 8,
+      "items": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]{0,29}$" },
+      "description": "Lowercase topic tags, e.g. messaging, devops, ai-agent"
+    },
+    "agent_ready": {
+      "type": "boolean",
+      "description": "Ships an MCP server / agent guard (the cliwright default). Defaults to true."
+    }
+  }
+}

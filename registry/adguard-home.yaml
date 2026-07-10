@@ -1,0 +1,10 @@
+name: adguard-home
+binary: adguard-home
+description: Manage AdGuard Home DNS filtering — clients, blocked services, rewrites, filters, and the query log.
+wraps: AdGuard Home API
+repo: https://github.com/jjuanrivvera/adguard-cli
+author: jjuanrivvera
+install:
+  go: go install github.com/jjuanrivvera/adguard-cli/cmd/adguard-home@latest
+tags: [dns, homelab, self-hosted]
+agent_ready: true

@@ -1,0 +1,10 @@
+name: alegra
+binary: alegra
+description: Alegra accounting from the terminal — invoices, contacts, payments, and DIAN/SAT e-invoicing.
+wraps: Alegra API
+repo: https://github.com/jjuanrivvera/alegra-cli
+author: jjuanrivvera
+install:
+  go: go install github.com/jjuanrivvera/alegra-cli/cmd/alegra@latest
+tags: [accounting, finance, ai-agent]
+agent_ready: true
