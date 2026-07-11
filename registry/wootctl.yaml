@@ -1,0 +1,13 @@
+name: wootctl
+binary: wootctl
+description: Drive the full Chatwoot API — conversations, contacts, reports, plus backup/restore and cross-instance sync.
+wraps: Chatwoot
+repo: https://github.com/jjuanrivvera/wootctl
+author: jjuanrivvera
+install:
+  brew: brew install jjuanrivvera/wootctl/wootctl-cli
+  scoop: scoop install https://raw.githubusercontent.com/jjuanrivvera/scoop-wootctl/main/wootctl.json
+  go: go install github.com/jjuanrivvera/wootctl/cmd/wootctl@latest
+  script: curl -fsSL https://raw.githubusercontent.com/jjuanrivvera/wootctl/main/install.sh | sh
+tags: [customer-support, messaging, ai-agent]
+agent_ready: true
