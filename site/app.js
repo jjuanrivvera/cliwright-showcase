@@ -27,6 +27,9 @@
 
   let tools = [];
 
+  // repoLabel strips the scheme so the card shows a clean "owner/repo" source link.
+  const repoLabel = (url) => String(url).replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "");
+
   function card(t) {
     const li = document.createElement("li");
     li.className = "card";
@@ -38,7 +41,8 @@
       <h3><a href="${esc(t.repo)}" rel="noopener">${esc(t.binary)}</a></h3>
       <p class="desc">${esc(t.description)}</p>
       ${install ? `<div class="install"><code>${esc(install)}</code><button class="copy" type="button">copy</button></div>` : ""}
-      <div class="tags">${agent}${chips}</div>`;
+      <div class="tags">${agent}${chips}</div>
+      <a class="repo" href="${esc(t.repo)}" rel="noopener">${esc(repoLabel(t.repo))} ↗</a>`;
     const copyBtn = li.querySelector(".copy");
     if (copyBtn) {
       copyBtn.addEventListener("click", async () => {

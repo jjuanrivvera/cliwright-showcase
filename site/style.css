@@ -94,6 +94,12 @@ header h1 { font-size: clamp(1.9rem, 4.5vw, 3rem); margin: 8px 0 10px; letter-sp
 .wraps { font-size: 12px; color: var(--accent); font-family: var(--mono); }
 .desc { margin: 0; font-size: 14px; color: var(--ink); }
 .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto; }
+.repo {
+  font-family: var(--mono); font-size: 12px; color: var(--muted);
+  border-top: 1px solid var(--line); padding-top: 10px; margin-top: 2px;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.repo:hover { color: var(--accent); text-decoration: none; }
 .chip { font-family: var(--mono); font-size: 11px; color: var(--muted); border: 1px solid var(--line); border-radius: 999px; padding: 2px 9px; }
 .chip.agent { color: var(--accent); border-color: var(--accent); }
 .install { position: relative; }
