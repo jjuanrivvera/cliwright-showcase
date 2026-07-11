@@ -8,5 +8,6 @@ install:
   brew: brew install jjuanrivvera/tgctl/tgctl-cli
   scoop: scoop install https://raw.githubusercontent.com/jjuanrivvera/scoop-tgctl/main/tgctl.json
   go: go install github.com/jjuanrivvera/tgctl/cmd/tgctl@latest
+  script: curl -fsSL https://raw.githubusercontent.com/jjuanrivvera/tgctl/main/install.sh | sh
 tags: [messaging, bots, ai-agent]
 agent_ready: true
