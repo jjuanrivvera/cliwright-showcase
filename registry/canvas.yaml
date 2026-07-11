@@ -6,6 +6,7 @@ repo: https://github.com/jjuanrivvera/canvas-cli
 author: jjuanrivvera
 install:
   brew: brew install jjuanrivvera/canvas-cli/canvas-cli
+  scoop: scoop install https://raw.githubusercontent.com/jjuanrivvera/scoop-canvas-cli/main/canvas-cli.json
   go: go install github.com/jjuanrivvera/canvas-cli/cmd/canvas@latest
 tags: [education, lms, ai-agent]
 agent_ready: true
