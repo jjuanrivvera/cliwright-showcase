@@ -8,5 +8,6 @@ install:
   brew: brew install jjuanrivvera/alegra-cli/alegra-cli
   scoop: scoop install https://raw.githubusercontent.com/jjuanrivvera/scoop-alegra-cli/main/alegra-cli.json
   go: go install github.com/jjuanrivvera/alegra-cli/cmd/alegra@latest
+  script: curl -fsSL https://raw.githubusercontent.com/jjuanrivvera/alegra-cli/main/install.sh | sh
 tags: [accounting, finance, ai-agent]
 agent_ready: true
