@@ -5,6 +5,8 @@ wraps: Alegra API
 repo: https://github.com/jjuanrivvera/alegra-cli
 author: jjuanrivvera
 install:
+  brew: brew install jjuanrivvera/alegra-cli/alegra-cli
+  scoop: scoop install https://raw.githubusercontent.com/jjuanrivvera/scoop-alegra-cli/main/alegra-cli.json
   go: go install github.com/jjuanrivvera/alegra-cli/cmd/alegra@latest
 tags: [accounting, finance, ai-agent]
 agent_ready: true

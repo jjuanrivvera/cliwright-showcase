@@ -5,6 +5,8 @@ wraps: Slack Web API
 repo: https://github.com/jjuanrivvera/slackctl
 author: jjuanrivvera
 install:
+  brew: brew install jjuanrivvera/slackctl/slackctl-cli
+  scoop: scoop install https://raw.githubusercontent.com/jjuanrivvera/scoop-slackctl/main/slackctl.json
   go: go install github.com/jjuanrivvera/slackctl/cmd/slackctl@latest
 tags: [messaging, chatops, ai-agent]
 agent_ready: true

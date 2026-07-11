@@ -21,9 +21,16 @@
   const esc = (s) => String(s).replace(/[&<>"']/g, (c) =>
     ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
-  // Prefer a real package manager over a source build in the shown one-liner.
-  const primaryInstall = (install) =>
-    install.brew || install.scoop || install.script || install.go || "";
+  // Show every install method the tool ships — the mix of brew / scoop / go makes the
+  // cross-platform story obvious without a word of explanation.
+  const METHOD_ORDER = ["brew", "scoop", "go", "script"];
+  const installRows = (inst) =>
+    METHOD_ORDER.filter((m) => inst && inst[m])
+      .map((m) =>
+        `<div class="irow"><span class="ilabel">${m}</span>` +
+        `<code>${esc(inst[m])}</code>` +
+        `<button class="copy" type="button" data-cmd="${esc(inst[m])}" aria-label="Copy ${m} command">copy</button></div>`)
+      .join("");
 
   let tools = [];
 
@@ -33,26 +40,24 @@
   function card(t) {
     const li = document.createElement("li");
     li.className = "card";
-    const install = primaryInstall(t.install || {});
     const chips = (t.tags || []).map((x) => `<span class="chip">${esc(x)}</span>`).join("");
     const agent = t.agent_ready ? `<span class="chip agent" title="Ships an MCP server + agent guard">agent-ready</span>` : "";
     li.innerHTML = `
       <div class="wraps">wraps ${esc(t.wraps)}</div>
       <h3><a href="${esc(t.repo)}" rel="noopener">${esc(t.binary)}</a></h3>
       <p class="desc">${esc(t.description)}</p>
-      ${install ? `<div class="install"><code>${esc(install)}</code><button class="copy" type="button">copy</button></div>` : ""}
+      <div class="installs">${installRows(t.install)}</div>
       <div class="tags">${agent}${chips}</div>
       <a class="repo" href="${esc(t.repo)}" rel="noopener">${esc(repoLabel(t.repo))} ↗</a>`;
-    const copyBtn = li.querySelector(".copy");
-    if (copyBtn) {
-      copyBtn.addEventListener("click", async () => {
+    li.querySelectorAll(".copy").forEach((btn) => {
+      btn.addEventListener("click", async () => {
         try {
-          await navigator.clipboard.writeText(install);
-          copyBtn.textContent = "copied";
-          setTimeout(() => (copyBtn.textContent = "copy"), 1200);
-        } catch { copyBtn.textContent = "⌘C"; }
+          await navigator.clipboard.writeText(btn.getAttribute("data-cmd") || "");
+          btn.textContent = "copied";
+          setTimeout(() => (btn.textContent = "copy"), 1200);
+        } catch { btn.textContent = "⌘C"; }
       });
-    }
+    });
     return li;
   }
 

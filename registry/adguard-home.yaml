@@ -5,6 +5,7 @@ wraps: AdGuard Home API
 repo: https://github.com/jjuanrivvera/adguard-cli
 author: jjuanrivvera
 install:
+  brew: brew install jjuanrivvera/adguard-cli/adguard-cli
   go: go install github.com/jjuanrivvera/adguard-cli/cmd/adguard-home@latest
 tags: [dns, homelab, self-hosted]
 agent_ready: true

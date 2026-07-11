@@ -5,7 +5,8 @@ wraps: Lemon Squeezy API
 repo: https://github.com/jjuanrivvera/lemon-squeezy-cli
 author: jjuanrivvera
 install:
-  brew: brew install jjuanrivvera/lemon-squeezy-cli/lsqueezy
+  brew: brew install jjuanrivvera/lemon-squeezy-cli/lemon-squeezy-cli
+  scoop: scoop install https://raw.githubusercontent.com/jjuanrivvera/scoop-lemon-squeezy-cli/main/lemon-squeezy-cli.json
   go: go install github.com/jjuanrivvera/lemon-squeezy-cli/cmd/lsqueezy@latest
 tags: [payments, saas, ai-agent]
 agent_ready: true

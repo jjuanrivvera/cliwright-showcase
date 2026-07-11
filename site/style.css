@@ -102,15 +102,21 @@ header h1 { font-size: clamp(1.9rem, 4.5vw, 3rem); margin: 8px 0 10px; letter-sp
 .repo:hover { color: var(--accent); text-decoration: none; }
 .chip { font-family: var(--mono); font-size: 11px; color: var(--muted); border: 1px solid var(--line); border-radius: 999px; padding: 2px 9px; }
 .chip.agent { color: var(--accent); border-color: var(--accent); }
-.install { position: relative; }
-.install code {
-  display: block; font-family: var(--mono); font-size: 12.5px;
+.installs { display: flex; flex-direction: column; gap: 6px; }
+.irow { position: relative; display: flex; align-items: stretch; gap: 8px; }
+.ilabel {
+  flex: 0 0 auto; width: 44px; font-family: var(--mono); font-size: 11px;
+  color: var(--accent); display: flex; align-items: center; justify-content: flex-start;
+  text-transform: lowercase;
+}
+.irow code {
+  flex: 1 1 auto; min-width: 0; font-family: var(--mono); font-size: 12px;
   background: var(--panel-2); border: 1px solid var(--line); border-radius: 8px;
-  padding: 8px 34px 8px 10px; color: var(--ink);
+  padding: 7px 34px 7px 10px; color: var(--ink);
   overflow-x: auto; white-space: pre; scrollbar-width: thin;
 }
 .copy {
-  position: absolute; top: 6px; right: 6px;
+  position: absolute; top: 5px; right: 5px;
   border: 1px solid var(--line); border-radius: 6px; background: var(--panel);
   color: var(--muted); cursor: pointer; font-size: 11px; padding: 3px 7px; font-family: var(--mono);
 }
