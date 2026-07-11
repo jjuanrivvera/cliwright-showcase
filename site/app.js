@@ -21,9 +21,10 @@
   const esc = (s) => String(s).replace(/[&<>"']/g, (c) =>
     ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 
-  // Show every install method the tool ships — the mix of brew / scoop / go makes the
-  // cross-platform story obvious without a word of explanation.
-  const METHOD_ORDER = ["brew", "scoop", "go", "script"];
+  // Show every install method the tool ships — the mix of script / brew / scoop / go makes
+  // the cross-platform story obvious without a word of explanation. Lead with the curl|sh
+  // script: it's the fleet's primary path and needs no package manager.
+  const METHOD_ORDER = ["script", "brew", "scoop", "go"];
   const installRows = (inst) =>
     METHOD_ORDER.filter((m) => inst && inst[m])
       .map((m) =>

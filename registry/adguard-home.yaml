@@ -8,5 +8,6 @@ install:
   brew: brew install jjuanrivvera/adguard-cli/adguard-cli
   scoop: scoop install https://raw.githubusercontent.com/jjuanrivvera/scoop-adguard-cli/main/adguard-cli.json
   go: go install github.com/jjuanrivvera/adguard-cli/cmd/adguard-home@latest
+  script: curl -fsSL https://raw.githubusercontent.com/jjuanrivvera/adguard-cli/main/install.sh | sh
 tags: [dns, homelab, self-hosted]
 agent_ready: true

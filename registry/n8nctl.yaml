@@ -8,5 +8,6 @@ install:
   brew: brew install jjuanrivvera/n8n-cli/n8nctl-cli
   scoop: scoop install https://raw.githubusercontent.com/jjuanrivvera/scoop-n8n-cli/main/n8n-cli.json
   go: go install github.com/jjuanrivvera/n8n-cli/cmd/n8nctl@latest
+  script: curl -fsSL https://raw.githubusercontent.com/jjuanrivvera/n8n-cli/main/install.sh | sh
 tags: [automation, devops, ai-agent]
 agent_ready: true
