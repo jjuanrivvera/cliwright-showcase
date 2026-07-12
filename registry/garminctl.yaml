@@ -1,0 +1,13 @@
+name: garminctl
+binary: garminctl
+description: Garmin Connect health data from the terminal — body composition, sleep, heart rate, stress, body battery, and the full endpoint registry.
+wraps: Garmin Connect API
+repo: https://github.com/jjuanrivvera/garminctl
+author: jjuanrivvera
+install:
+  brew: brew install jjuanrivvera/garminctl/garminctl-cli
+  scoop: scoop install https://raw.githubusercontent.com/jjuanrivvera/scoop-garminctl/main/garminctl.json
+  go: go install github.com/jjuanrivvera/garminctl/cmd/garminctl@latest
+  script: curl -fsSL https://raw.githubusercontent.com/jjuanrivvera/garminctl/main/install.sh | sh
+tags: [health, fitness, ai-agent]
+agent_ready: true
