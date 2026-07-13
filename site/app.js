@@ -45,11 +45,11 @@
     const agent = t.agent_ready ? `<span class="chip agent" title="Ships an MCP server + agent guard">agent-ready</span>` : "";
     li.innerHTML = `
       <div class="wraps">wraps ${esc(t.wraps)}</div>
-      <h3><a href="${esc(t.repo)}" rel="noopener">${esc(t.binary)}</a></h3>
+      <h3><a href="${esc(t.repo)}" target="_blank" rel="noopener">${esc(t.binary)}</a></h3>
       <p class="desc">${esc(t.description)}</p>
       <div class="installs">${installRows(t.install)}</div>
       <div class="tags">${agent}${chips}</div>
-      <a class="repo" href="${esc(t.repo)}" rel="noopener">${esc(repoLabel(t.repo))} ↗</a>`;
+      <a class="repo" href="${esc(t.repo)}" target="_blank" rel="noopener">${esc(repoLabel(t.repo))} ↗</a>`;
     li.querySelectorAll(".copy").forEach((btn) => {
       btn.addEventListener("click", async () => {
         try {
