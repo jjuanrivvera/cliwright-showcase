@@ -1,0 +1,964 @@
+{
+  "snapshot_date": "2026-07-13",
+  "tools": [
+    {
+      "name": "garminctl",
+      "binary": "garminctl",
+      "stars": 0,
+      "forks": 0,
+      "created_at": "2026-07-12",
+      "downloads_total": 7,
+      "downloads_install": 4,
+      "by_os": {
+        "macOS": 2,
+        "Linux": 2,
+        "Windows": 0
+      },
+      "by_arch": {
+        "amd64": 3,
+        "arm64": 1
+      },
+      "by_type": {
+        "checksum": 3,
+        "signature": 0,
+        "archive": 4,
+        "sbom": 0,
+        "apk": 0,
+        "deb": 0,
+        "rpm": 0
+      },
+      "versions": [
+        {
+          "tag": "v0.3.0",
+          "date": "2026-07-12",
+          "downloads": 1
+        },
+        {
+          "tag": "v0.2.1",
+          "date": "2026-07-12",
+          "downloads": 0
+        },
+        {
+          "tag": "v0.2.0",
+          "date": "2026-07-12",
+          "downloads": 0
+        },
+        {
+          "tag": "v0.1.0",
+          "date": "2026-07-12",
+          "downloads": 3
+        }
+      ],
+      "traffic": {
+        "views_count": 0,
+        "views_uniques": 0,
+        "clones_count": 218,
+        "clones_uniques": 81,
+        "referrers": [],
+        "paths": []
+      }
+    },
+    {
+      "name": "wootctl",
+      "binary": "wootctl",
+      "stars": 1,
+      "forks": 0,
+      "created_at": "2026-07-10",
+      "downloads_total": 17,
+      "downloads_install": 8,
+      "by_os": {
+        "macOS": 4,
+        "Linux": 4,
+        "Windows": 0
+      },
+      "by_arch": {
+        "amd64": 4,
+        "arm64": 4
+      },
+      "by_type": {
+        "checksum": 9,
+        "signature": 0,
+        "archive": 8,
+        "sbom": 0,
+        "apk": 0,
+        "deb": 0,
+        "rpm": 0
+      },
+      "versions": [
+        {
+          "tag": "v0.2.0",
+          "date": "2026-07-10",
+          "downloads": 4
+        },
+        {
+          "tag": "v0.1.2",
+          "date": "2026-07-10",
+          "downloads": 0
+        },
+        {
+          "tag": "v0.1.1",
+          "date": "2026-07-10",
+          "downloads": 0
+        },
+        {
+          "tag": "v0.1.0",
+          "date": "2026-07-10",
+          "downloads": 0
+        },
+        {
+          "tag": "v0.3.0",
+          "date": "2026-07-11",
+          "downloads": 4
+        },
+        {
+          "tag": "v0.3.2",
+          "date": "2026-07-12",
+          "downloads": 0
+        },
+        {
+          "tag": "v0.3.1",
+          "date": "2026-07-12",
+          "downloads": 0
+        }
+      ],
+      "traffic": {
+        "views_count": 0,
+        "views_uniques": 0,
+        "clones_count": 317,
+        "clones_uniques": 139,
+        "referrers": [],
+        "paths": []
+      }
+    },
+    {
+      "name": "slackctl",
+      "binary": "slackctl",
+      "stars": 0,
+      "forks": 0,
+      "created_at": "2026-07-06",
+      "downloads_total": 14,
+      "downloads_install": 9,
+      "by_os": {
+        "macOS": 6,
+        "Linux": 3,
+        "Windows": 0
+      },
+      "by_arch": {
+        "amd64": 4,
+        "arm64": 5
+      },
+      "by_type": {
+        "checksum": 5,
+        "signature": 0,
+        "archive": 9,
+        "sbom": 0,
+        "apk": 0,
+        "deb": 0,
+        "rpm": 0
+      },
+      "versions": [
+        {
+          "tag": "v0.3.0",
+          "date": "2026-07-06",
+          "downloads": 6
+        },
+        {
+          "tag": "v0.2.1",
+          "date": "2026-07-06",
+          "downloads": 1
+        },
+        {
+          "tag": "v0.2.0",
+          "date": "2026-07-06",
+          "downloads": 1
+        },
+        {
+          "tag": "v0.1.0",
+          "date": "2026-07-06",
+          "downloads": 1
+        },
+        {
+          "tag": "v0.3.2",
+          "date": "2026-07-12",
+          "downloads": 0
+        },
+        {
+          "tag": "v0.3.1",
+          "date": "2026-07-12",
+          "downloads": 0
+        }
+      ],
+      "traffic": {
+        "views_count": 5,
+        "views_uniques": 1,
+        "clones_count": 341,
+        "clones_uniques": 126,
+        "referrers": [
+          {
+            "referrer": "github.com",
+            "count": 5,
+            "uniques": 1
+          }
+        ],
+        "paths": [
+          {
+            "path": "/jjuanrivvera/slackctl",
+            "count": 4,
+            "uniques": 1
+          },
+          {
+            "path": "/jjuanrivvera/slackctl/blob/main/DECISIONS.md",
+            "count": 1,
+            "uniques": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "tgctl",
+      "binary": "tgctl",
+      "stars": 1,
+      "forks": 0,
+      "created_at": "2026-06-29",
+      "downloads_total": 25,
+      "downloads_install": 14,
+      "by_os": {
+        "macOS": 6,
+        "Linux": 8,
+        "Windows": 0
+      },
+      "by_arch": {
+        "amd64": 10,
+        "arm64": 4
+      },
+      "by_type": {
+        "checksum": 11,
+        "signature": 0,
+        "archive": 14,
+        "sbom": 0,
+        "apk": 0,
+        "deb": 0,
+        "rpm": 0
+      },
+      "versions": [
+        {
+          "tag": "v0.1.0",
+          "date": "2026-06-29",
+          "downloads": 6
+        },
+        {
+          "tag": "v0.2.0",
+          "date": "2026-07-03",
+          "downloads": 8
+        },
+        {
+          "tag": "v0.2.2",
+          "date": "2026-07-12",
+          "downloads": 0
+        },
+        {
+          "tag": "v0.2.1",
+          "date": "2026-07-12",
+          "downloads": 0
+        }
+      ],
+      "traffic": {
+        "views_count": 6,
+        "views_uniques": 2,
+        "clones_count": 515,
+        "clones_uniques": 169,
+        "referrers": [
+          {
+            "referrer": "github.com",
+            "count": 6,
+            "uniques": 2
+          }
+        ],
+        "paths": [
+          {
+            "path": "/jjuanrivvera/tgctl",
+            "count": 6,
+            "uniques": 2
+          }
+        ]
+      }
+    },
+    {
+      "name": "n8n-cli",
+      "binary": "n8nctl",
+      "stars": 1,
+      "forks": 0,
+      "created_at": "2026-06-22",
+      "downloads_total": 26,
+      "downloads_install": 16,
+      "by_os": {
+        "macOS": 9,
+        "Linux": 7,
+        "Windows": 0
+      },
+      "by_arch": {
+        "amd64": 8,
+        "arm64": 8
+      },
+      "by_type": {
+        "checksum": 8,
+        "other": 2,
+        "archive": 15,
+        "sbom": 0,
+        "apk": 1,
+        "deb": 0,
+        "rpm": 0
+      },
+      "versions": [
+        {
+          "tag": "v0.1.0",
+          "date": "2026-06-22",
+          "downloads": 2
+        },
+        {
+          "tag": "v0.5.1",
+          "date": "2026-06-23",
+          "downloads": 3
+        },
+        {
+          "tag": "v0.5.0",
+          "date": "2026-06-23",
+          "downloads": 0
+        },
+        {
+          "tag": "v0.4.0",
+          "date": "2026-06-23",
+          "downloads": 1
+        },
+        {
+          "tag": "v0.3.0",
+          "date": "2026-06-23",
+          "downloads": 2
+        },
+        {
+          "tag": "v0.2.0",
+          "date": "2026-06-23",
+          "downloads": 1
+        },
+        {
+          "tag": "v0.5.2",
+          "date": "2026-07-03",
+          "downloads": 1
+        },
+        {
+          "tag": "v0.5.3",
+          "date": "2026-07-11",
+          "downloads": 6
+        },
+        {
+          "tag": "v0.5.4",
+          "date": "2026-07-12",
+          "downloads": 0
+        }
+      ],
+      "traffic": {
+        "views_count": 2,
+        "views_uniques": 2,
+        "clones_count": 326,
+        "clones_uniques": 96,
+        "referrers": [
+          {
+            "referrer": "github.com",
+            "count": 1,
+            "uniques": 1
+          }
+        ],
+        "paths": [
+          {
+            "path": "/jjuanrivvera/n8n-cli",
+            "count": 2,
+            "uniques": 2
+          }
+        ]
+      }
+    },
+    {
+      "name": "alegra-cli",
+      "binary": "alegra",
+      "stars": 1,
+      "forks": 0,
+      "created_at": "2026-06-06",
+      "downloads_total": 113,
+      "downloads_install": 85,
+      "by_os": {
+        "macOS": 26,
+        "Linux": 52,
+        "Windows": 7
+      },
+      "by_arch": {
+        "amd64": 40,
+        "arm64": 45
+      },
+      "by_type": {
+        "archive": 49,
+        "sbom": 5,
+        "apk": 26,
+        "deb": 5,
+        "rpm": 5,
+        "checksum": 13,
+        "signature": 10,
+        "install.sh": 0
+      },
+      "versions": [
+        {
+          "tag": "v0.3.2",
+          "date": "2026-06-06",
+          "downloads": 1
+        },
+        {
+          "tag": "v0.3.1",
+          "date": "2026-06-06",
+          "downloads": 1
+        },
+        {
+          "tag": "v0.3.0",
+          "date": "2026-06-06",
+          "downloads": 1
+        },
+        {
+          "tag": "v0.2.0",
+          "date": "2026-06-06",
+          "downloads": 13
+        },
+        {
+          "tag": "v0.1.0",
+          "date": "2026-06-06",
+          "downloads": 1
+        },
+        {
+          "tag": "v0.4.0",
+          "date": "2026-06-07",
+          "downloads": 6
+        },
+        {
+          "tag": "v0.4.4",
+          "date": "2026-06-08",
+          "downloads": 0
+        },
+        {
+          "tag": "v0.4.3",
+          "date": "2026-06-08",
+          "downloads": 0
+        },
+        {
+          "tag": "v0.4.2",
+          "date": "2026-06-08",
+          "downloads": 0
+        },
+        {
+          "tag": "v0.4.1",
+          "date": "2026-06-08",
+          "downloads": 5
+        },
+        {
+          "tag": "v0.7.0",
+          "date": "2026-06-09",
+          "downloads": 2
+        },
+        {
+          "tag": "v0.6.1",
+          "date": "2026-06-09",
+          "downloads": 2
+        },
+        {
+          "tag": "v0.6.0",
+          "date": "2026-06-09",
+          "downloads": 3
+        },
+        {
+          "tag": "v0.5.0",
+          "date": "2026-06-09",
+          "downloads": 2
+        },
+        {
+          "tag": "v0.8.1",
+          "date": "2026-06-10",
+          "downloads": 2
+        },
+        {
+          "tag": "v0.8.0",
+          "date": "2026-06-10",
+          "downloads": 2
+        },
+        {
+          "tag": "v0.7.1",
+          "date": "2026-06-10",
+          "downloads": 37
+        },
+        {
+          "tag": "v0.9.2",
+          "date": "2026-06-11",
+          "downloads": 0
+        },
+        {
+          "tag": "v0.9.1",
+          "date": "2026-06-11",
+          "downloads": 0
+        },
+        {
+          "tag": "v0.9.0",
+          "date": "2026-06-11",
+          "downloads": 0
+        },
+        {
+          "tag": "v0.8.3",
+          "date": "2026-06-11",
+          "downloads": 0
+        },
+        {
+          "tag": "v0.8.2",
+          "date": "2026-06-11",
+          "downloads": 1
+        },
+        {
+          "tag": "v0.9.3",
+          "date": "2026-06-12",
+          "downloads": 0
+        },
+        {
+          "tag": "v0.9.4",
+          "date": "2026-06-13",
+          "downloads": 1
+        },
+        {
+          "tag": "v0.9.5",
+          "date": "2026-07-03",
+          "downloads": 1
+        },
+        {
+          "tag": "v0.9.6",
+          "date": "2026-07-11",
+          "downloads": 4
+        },
+        {
+          "tag": "v0.9.7",
+          "date": "2026-07-12",
+          "downloads": 0
+        }
+      ],
+      "traffic": {
+        "views_count": 19,
+        "views_uniques": 14,
+        "clones_count": 276,
+        "clones_uniques": 93,
+        "referrers": [
+          {
+            "referrer": "github.com",
+            "count": 2,
+            "uniques": 2
+          }
+        ],
+        "paths": [
+          {
+            "path": "/jjuanrivvera/alegra-cli",
+            "count": 13,
+            "uniques": 10
+          },
+          {
+            "path": "/jjuanrivvera/alegra-cli/blob/3a15406e/.github/workflows/release.yml",
+            "count": 1,
+            "uniques": 1
+          },
+          {
+            "path": "/jjuanrivvera/alegra-cli/blob/3a15406e/.golangci.yml",
+            "count": 1,
+            "uniques": 1
+          },
+          {
+            "path": "/jjuanrivvera/alegra-cli/blob/3a15406e/commands/config.go",
+            "count": 1,
+            "uniques": 1
+          },
+          {
+            "path": "/jjuanrivvera/alegra-cli/blob/3a15406e/commands/root_test.go",
+            "count": 1,
+            "uniques": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "adguard-cli",
+      "binary": "adguard-home",
+      "stars": 2,
+      "forks": 0,
+      "created_at": "2026-04-04",
+      "downloads_total": 37,
+      "downloads_install": 33,
+      "by_os": {
+        "macOS": 15,
+        "Linux": 14,
+        "Windows": 4
+      },
+      "by_arch": {
+        "amd64": 22,
+        "arm64": 11
+      },
+      "by_type": {
+        "archive": 33,
+        "checksum": 4
+      },
+      "versions": [
+        {
+          "tag": "v0.1.0",
+          "date": "2026-04-04",
+          "downloads": 20
+        },
+        {
+          "tag": "v0.2.0",
+          "date": "2026-04-05",
+          "downloads": 11
+        },
+        {
+          "tag": "v0.2.2",
+          "date": "2026-07-11",
+          "downloads": 1
+        },
+        {
+          "tag": "v0.2.1",
+          "date": "2026-07-11",
+          "downloads": 1
+        },
+        {
+          "tag": "v0.2.4",
+          "date": "2026-07-12",
+          "downloads": 0
+        },
+        {
+          "tag": "v0.2.3",
+          "date": "2026-07-12",
+          "downloads": 0
+        }
+      ],
+      "traffic": {
+        "views_count": 9,
+        "views_uniques": 4,
+        "clones_count": 146,
+        "clones_uniques": 69,
+        "referrers": [
+          {
+            "referrer": "Google",
+            "count": 2,
+            "uniques": 1
+          },
+          {
+            "referrer": "ya.ru",
+            "count": 2,
+            "uniques": 1
+          },
+          {
+            "referrer": "cliwright.jjuanrivvera.com",
+            "count": 1,
+            "uniques": 1
+          }
+        ],
+        "paths": [
+          {
+            "path": "/jjuanrivvera/adguard-cli",
+            "count": 5,
+            "uniques": 3
+          },
+          {
+            "path": "/jjuanrivvera/adguard-cli/pulls",
+            "count": 2,
+            "uniques": 1
+          },
+          {
+            "path": "/jjuanrivvera/adguard-cli/releases",
+            "count": 2,
+            "uniques": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "lemon-squeezy-cli",
+      "binary": "lsqueezy",
+      "stars": 0,
+      "forks": 0,
+      "created_at": "2026-06-30",
+      "downloads_total": 15,
+      "downloads_install": 8,
+      "by_os": {
+        "macOS": 5,
+        "Linux": 3,
+        "Windows": 0
+      },
+      "by_arch": {
+        "amd64": 4,
+        "arm64": 4
+      },
+      "by_type": {
+        "checksum": 7,
+        "signature": 0,
+        "archive": 8,
+        "sbom": 0,
+        "apk": 0,
+        "deb": 0,
+        "rpm": 0
+      },
+      "versions": [
+        {
+          "tag": "v0.1.0",
+          "date": "2026-06-30",
+          "downloads": 0
+        },
+        {
+          "tag": "v0.2.0",
+          "date": "2026-07-03",
+          "downloads": 6
+        },
+        {
+          "tag": "v0.2.1",
+          "date": "2026-07-11",
+          "downloads": 1
+        },
+        {
+          "tag": "v0.2.4",
+          "date": "2026-07-12",
+          "downloads": 0
+        },
+        {
+          "tag": "v0.2.3",
+          "date": "2026-07-12",
+          "downloads": 0
+        },
+        {
+          "tag": "v0.2.2",
+          "date": "2026-07-12",
+          "downloads": 1
+        }
+      ],
+      "traffic": {
+        "views_count": 0,
+        "views_uniques": 0,
+        "clones_count": 443,
+        "clones_uniques": 176,
+        "referrers": [],
+        "paths": []
+      }
+    },
+    {
+      "name": "canvas-cli",
+      "binary": "canvas",
+      "stars": 5,
+      "forks": 2,
+      "created_at": "2026-01-09",
+      "downloads_total": 269,
+      "downloads_install": 205,
+      "by_os": {
+        "macOS": 90,
+        "Linux": 77,
+        "Windows": 38
+      },
+      "by_arch": {
+        "amd64": 119,
+        "arm64": 86
+      },
+      "by_type": {
+        "archive": 205,
+        "checksum": 51,
+        "sbom": 5,
+        "signature": 8,
+        "install.sh": 0
+      },
+      "versions": [
+        {
+          "tag": "v1.1.0",
+          "date": "2026-01-10",
+          "downloads": 5
+        },
+        {
+          "tag": "v1.1.0",
+          "date": "2026-01-10",
+          "downloads": 0
+        },
+        {
+          "tag": "v1.1.0",
+          "date": "2026-01-10",
+          "downloads": 0
+        },
+        {
+          "tag": "v1.1.0",
+          "date": "2026-01-10",
+          "downloads": 15
+        },
+        {
+          "tag": "v1.0.0",
+          "date": "2026-01-10",
+          "downloads": 0
+        },
+        {
+          "tag": "v1.2.0",
+          "date": "2026-01-11",
+          "downloads": 17
+        },
+        {
+          "tag": "v1.4.0",
+          "date": "2026-01-13",
+          "downloads": 15
+        },
+        {
+          "tag": "v1.3.1",
+          "date": "2026-01-13",
+          "downloads": 16
+        },
+        {
+          "tag": "v1.3.0",
+          "date": "2026-01-13",
+          "downloads": 16
+        },
+        {
+          "tag": "v1.2.1",
+          "date": "2026-01-13",
+          "downloads": 5
+        },
+        {
+          "tag": "v1.5.2",
+          "date": "2026-01-14",
+          "downloads": 6
+        },
+        {
+          "tag": "v1.5.1",
+          "date": "2026-01-14",
+          "downloads": 5
+        },
+        {
+          "tag": "v1.5.0",
+          "date": "2026-01-14",
+          "downloads": 17
+        },
+        {
+          "tag": "v1.5.3",
+          "date": "2026-01-15",
+          "downloads": 19
+        },
+        {
+          "tag": "v1.6.1",
+          "date": "2026-01-19",
+          "downloads": 2
+        },
+        {
+          "tag": "v1.6.0",
+          "date": "2026-01-19",
+          "downloads": 1
+        },
+        {
+          "tag": "v1.7.0",
+          "date": "2026-01-25",
+          "downloads": 6
+        },
+        {
+          "tag": "v1.8.0",
+          "date": "2026-04-29",
+          "downloads": 4
+        },
+        {
+          "tag": "v1.8.1",
+          "date": "2026-06-09",
+          "downloads": 2
+        },
+        {
+          "tag": "v1.9.0",
+          "date": "2026-06-10",
+          "downloads": 5
+        },
+        {
+          "tag": "v1.9.1",
+          "date": "2026-06-12",
+          "downloads": 5
+        },
+        {
+          "tag": "v1.10.0",
+          "date": "2026-06-23",
+          "downloads": 11
+        },
+        {
+          "tag": "v1.10.1",
+          "date": "2026-07-02",
+          "downloads": 3
+        },
+        {
+          "tag": "v1.10.2",
+          "date": "2026-07-03",
+          "downloads": 15
+        },
+        {
+          "tag": "v1.10.5",
+          "date": "2026-07-11",
+          "downloads": 6
+        },
+        {
+          "tag": "v1.10.4",
+          "date": "2026-07-11",
+          "downloads": 8
+        },
+        {
+          "tag": "v1.10.3",
+          "date": "2026-07-11",
+          "downloads": 1
+        }
+      ],
+      "traffic": {
+        "views_count": 112,
+        "views_uniques": 61,
+        "clones_count": 500,
+        "clones_uniques": 141,
+        "referrers": [
+          {
+            "referrer": "Google",
+            "count": 37,
+            "uniques": 17
+          },
+          {
+            "referrer": "github.com",
+            "count": 16,
+            "uniques": 3
+          },
+          {
+            "referrer": "Bing",
+            "count": 3,
+            "uniques": 1
+          },
+          {
+            "referrer": "DuckDuckGo",
+            "count": 2,
+            "uniques": 1
+          }
+        ],
+        "paths": [
+          {
+            "path": "/jjuanrivvera/canvas-cli",
+            "count": 39,
+            "uniques": 21
+          },
+          {
+            "path": "/jjuanrivvera/canvas-cli/issues",
+            "count": 5,
+            "uniques": 3
+          },
+          {
+            "path": "/jjuanrivvera/canvas-cli/issues/48",
+            "count": 5,
+            "uniques": 3
+          },
+          {
+            "path": "/jjuanrivvera/canvas-cli/tree/main/internal",
+            "count": 3,
+            "uniques": 2
+          },
+          {
+            "path": "/jjuanrivvera/canvas-cli/blob/v1.4.0/internal/repl/completer.go",
+            "count": 2,
+            "uniques": 2
+          }
+        ]
+      }
+    }
+  ]
+}
