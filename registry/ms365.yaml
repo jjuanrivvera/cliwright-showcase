@@ -1,0 +1,13 @@
+name: ms365
+binary: ms365
+description: Microsoft 365 from the terminal — Outlook mail, calendar, and profile via Microsoft Graph, with multi-account device-code auth.
+wraps: Microsoft Graph API
+repo: https://github.com/jjuanrivvera/ms365-cli
+author: jjuanrivvera
+install:
+  brew: brew install jjuanrivvera/ms365-cli/ms365-cli
+  scoop: scoop install https://raw.githubusercontent.com/jjuanrivvera/scoop-ms365-cli/main/ms365-cli.json
+  go: go install github.com/jjuanrivvera/ms365-cli/cmd/ms365@latest
+  script: curl -fsSL https://raw.githubusercontent.com/jjuanrivvera/ms365-cli/main/install.sh | sh
+tags: [productivity, email, calendar, microsoft, ai-agent]
+agent_ready: true

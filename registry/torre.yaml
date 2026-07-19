@@ -1,0 +1,13 @@
+name: torre
+binary: torre
+description: Torre.ai jobs from the terminal — search opportunities, fetch public genomes, agent-friendly JSON output.
+wraps: Torre.ai API
+repo: https://github.com/jjuanrivvera/torre-cli
+author: jjuanrivvera
+install:
+  brew: brew install jjuanrivvera/torre-cli/torre-cli
+  scoop: scoop install https://raw.githubusercontent.com/jjuanrivvera/scoop-torre-cli/main/torre-cli.json
+  go: go install github.com/jjuanrivvera/torre-cli/cmd/torre@latest
+  script: curl -fsSL https://raw.githubusercontent.com/jjuanrivvera/torre-cli/main/install.sh | sh
+tags: [jobs, recruiting, job-search, ai-agent]
+agent_ready: true
