@@ -9,14 +9,28 @@ Needs `gh` authenticated with push access to the repos (traffic endpoints requir
 import subprocess, json, csv, os, re, argparse, datetime, collections, sys
 
 ORG = "jjuanrivvera"
-# repo -> binary
-TOOLS = {
-    "garminctl": "garminctl", "wootctl": "wootctl", "slackctl": "slackctl", "tgctl": "tgctl",
-    "n8n-cli": "n8nctl", "alegra-cli": "alegra", "adguard-cli": "adguard-home",
-    "lemon-squeezy-cli": "lsqueezy", "canvas-cli": "canvas",
-}
 HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MET = os.path.join(HERE, "metrics")
+
+
+def load_tools():
+    """repo -> binary, read from registry/*.yaml so the snapshot always covers exactly the
+    showcased fleet. Adding a CLI to the registry is enough — there is no hand-maintained list
+    to drift out of sync (which is how ms365/remoteok/torre were being missed)."""
+    import glob
+
+    import yaml
+
+    tools = {}
+    for path in sorted(glob.glob(os.path.join(HERE, "registry", "*.yaml"))):
+        d = yaml.safe_load(open(path))
+        repo = d["repo"].rstrip("/").split("/")[-1]
+        tools[repo] = d["binary"]
+    return tools
+
+
+# repo -> binary
+TOOLS = load_tools()
 
 
 def gh(path, paginate=False):
