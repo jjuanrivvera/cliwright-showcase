@@ -1,0 +1,13 @@
+name: linkedin
+binary: linkedin
+description: Read-only LinkedIn job search from the terminal — jobs, companies, geo lookup over the unofficial Voyager API, agent-friendly JSON output.
+wraps: LinkedIn Voyager API (unofficial)
+repo: https://github.com/jjuanrivvera/linkedin-cli
+author: jjuanrivvera
+install:
+  brew: brew install jjuanrivvera/linkedin-cli/linkedin-cli
+  scoop: scoop install https://raw.githubusercontent.com/jjuanrivvera/scoop-linkedin-cli/main/linkedin-cli.json
+  go: go install github.com/jjuanrivvera/linkedin-cli/cmd/linkedin@latest
+  script: curl -fsSL https://raw.githubusercontent.com/jjuanrivvera/linkedin-cli/main/install.sh | sh
+tags: [jobs, job-search, linkedin, ai-agent]
+agent_ready: true
