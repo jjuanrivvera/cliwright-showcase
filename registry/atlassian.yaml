@@ -1,0 +1,14 @@
+name: atlassian
+binary: atlassian
+description: Jira, Confluence, Jira Service Management and Jira Software from the command line — all 1,143 documented operations, Cloud and Data Center.
+wraps: Atlassian (Jira, Confluence, JSM, Jira Software)
+repo: https://github.com/jjuanrivvera/atlassian-cli
+homepage: https://jjuanrivvera.github.io/atlassian-cli/
+author: jjuanrivvera
+install:
+  brew: brew install jjuanrivvera/atlassian-cli/atlassian-cli
+  scoop: scoop install https://raw.githubusercontent.com/jjuanrivvera/scoop-atlassian-cli/main/atlassian-cli.json
+  go: go install github.com/jjuanrivvera/atlassian-cli/cmd/atlassian@latest
+  script: curl -fsSL https://raw.githubusercontent.com/jjuanrivvera/atlassian-cli/main/install.sh | sh
+tags: [project-management, devops, ai-agent]
+agent_ready: true
