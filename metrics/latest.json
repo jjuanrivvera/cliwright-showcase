@@ -1,26 +1,26 @@
 {
-  "snapshot_date": "2026-08-24",
+  "snapshot_date": "2026-08-31",
   "tools": [
     {
       "name": "adguard-cli",
       "binary": "adguard-home",
-      "stars": 2,
+      "stars": 3,
       "forks": 0,
       "created_at": "2026-04-04",
-      "downloads_total": 58,
-      "downloads_install": 46,
+      "downloads_total": 60,
+      "downloads_install": 47,
       "by_os": {
         "macOS": 20,
-        "Linux": 22,
+        "Linux": 23,
         "Windows": 4
       },
       "by_arch": {
-        "amd64": 31,
+        "amd64": 32,
         "arm64": 15
       },
       "by_type": {
-        "archive": 46,
-        "checksum": 12
+        "archive": 47,
+        "checksum": 13
       },
       "versions": [
         {
@@ -76,27 +76,27 @@
         {
           "tag": "v0.5.1",
           "date": "2026-08-18",
-          "downloads": 0
+          "downloads": 1
         }
       ],
       "traffic": {
-        "views_count": 7,
+        "views_count": 6,
         "views_uniques": 5,
-        "clones_count": 63,
-        "clones_uniques": 32,
+        "clones_count": 70,
+        "clones_uniques": 31,
         "referrers": [
           {
-            "referrer": "Google",
-            "count": 3,
+            "referrer": "DuckDuckGo",
+            "count": 2,
             "uniques": 2
           },
           {
-            "referrer": "DuckDuckGo",
-            "count": 1,
+            "referrer": "chatgpt.com",
+            "count": 2,
             "uniques": 1
           },
           {
-            "referrer": "yandex.ru",
+            "referrer": "Google",
             "count": 1,
             "uniques": 1
           }
@@ -104,11 +104,11 @@
         "paths": [
           {
             "path": "/jjuanrivvera/adguard-cli",
-            "count": 6,
-            "uniques": 4
+            "count": 5,
+            "uniques": 5
           },
           {
-            "path": "/jjuanrivvera/adguard-cli/releases",
+            "path": "/jjuanrivvera/adguard-cli/blob/main/Makefile",
             "count": 1,
             "uniques": 1
           }
@@ -118,28 +118,28 @@
     {
       "name": "alegra-cli",
       "binary": "alegra",
-      "stars": 1,
+      "stars": 2,
       "forks": 0,
       "created_at": "2026-06-06",
-      "downloads_total": 132,
-      "downloads_install": 101,
+      "downloads_total": 136,
+      "downloads_install": 102,
       "by_os": {
-        "macOS": 30,
+        "macOS": 31,
         "Linux": 62,
         "Windows": 9
       },
       "by_arch": {
         "amd64": 50,
-        "arm64": 51
+        "arm64": 52
       },
       "by_type": {
-        "archive": 59,
+        "archive": 60,
         "sbom": 5,
         "apk": 26,
         "deb": 6,
         "rpm": 10,
-        "checksum": 15,
-        "signature": 10,
+        "checksum": 16,
+        "signature": 12,
         "install.sh": 1
       },
       "versions": [
@@ -286,22 +286,22 @@
         {
           "tag": "v0.10.1",
           "date": "2026-08-18",
-          "downloads": 0
+          "downloads": 1
         }
       ],
       "traffic": {
-        "views_count": 4,
-        "views_uniques": 4,
-        "clones_count": 188,
-        "clones_uniques": 115,
+        "views_count": 5,
+        "views_uniques": 3,
+        "clones_count": 187,
+        "clones_uniques": 98,
         "referrers": [
           {
-            "referrer": "github.com",
+            "referrer": "Google",
             "count": 2,
-            "uniques": 2
+            "uniques": 1
           },
           {
-            "referrer": "Google",
+            "referrer": "github.com",
             "count": 1,
             "uniques": 1
           }
@@ -310,7 +310,12 @@
           {
             "path": "/jjuanrivvera/alegra-cli",
             "count": 4,
-            "uniques": 4
+            "uniques": 3
+          },
+          {
+            "path": "/jjuanrivvera/alegra-cli/blob/8ccca8aed90a28d52c19210b27b05e4902787913/internal/api/retry.go",
+            "count": 1,
+            "uniques": 1
           }
         ]
       }
@@ -379,20 +384,35 @@
         }
       ],
       "traffic": {
-        "views_count": 4,
-        "views_uniques": 4,
-        "clones_count": 10,
-        "clones_uniques": 7,
+        "views_count": 13,
+        "views_uniques": 6,
+        "clones_count": 24,
+        "clones_uniques": 14,
         "referrers": [
           {
+            "referrer": "github.com",
+            "count": 8,
+            "uniques": 1
+          },
+          {
             "referrer": "Google",
-            "count": 2,
-            "uniques": 2
+            "count": 1,
+            "uniques": 1
           }
         ],
         "paths": [
           {
             "path": "/jjuanrivvera/atlassian-cli",
+            "count": 2,
+            "uniques": 2
+          },
+          {
+            "path": "/jjuanrivvera/atlassian-cli/blob/main/LICENSE",
+            "count": 2,
+            "uniques": 1
+          },
+          {
+            "path": "/jjuanrivvera/atlassian-cli/blame/main/LICENSE",
             "count": 1,
             "uniques": 1
           },
@@ -402,12 +422,7 @@
             "uniques": 1
           },
           {
-            "path": "/jjuanrivvera/atlassian-cli/blob/main/DECISIONS.md",
-            "count": 1,
-            "uniques": 1
-          },
-          {
-            "path": "/jjuanrivvera/atlassian-cli/blob/main/docs/oauth-app.md",
+            "path": "/jjuanrivvera/atlassian-cli/blob/ff4064a4/scripts/cover-check.sh",
             "count": 1,
             "uniques": 1
           }
@@ -417,25 +432,25 @@
     {
       "name": "canvas-cli",
       "binary": "canvas",
-      "stars": 9,
+      "stars": 11,
       "forks": 2,
       "created_at": "2026-01-09",
-      "downloads_total": 440,
-      "downloads_install": 309,
+      "downloads_total": 459,
+      "downloads_install": 321,
       "by_os": {
-        "macOS": 121,
-        "Linux": 135,
-        "Windows": 53
+        "macOS": 128,
+        "Linux": 138,
+        "Windows": 55
       },
       "by_arch": {
-        "amd64": 193,
-        "arm64": 116
+        "amd64": 198,
+        "arm64": 123
       },
       "by_type": {
-        "archive": 309,
-        "checksum": 105,
+        "archive": 321,
+        "checksum": 110,
         "sbom": 11,
-        "signature": 12,
+        "signature": 14,
         "install.sh": 3
       },
       "versions": [
@@ -552,7 +567,7 @@
         {
           "tag": "v1.10.1",
           "date": "2026-07-02",
-          "downloads": 3
+          "downloads": 4
         },
         {
           "tag": "v1.10.2",
@@ -597,19 +612,19 @@
         {
           "tag": "v1.13.0",
           "date": "2026-08-06",
-          "downloads": 55
+          "downloads": 66
         }
       ],
       "traffic": {
-        "views_count": 85,
-        "views_uniques": 55,
-        "clones_count": 149,
-        "clones_uniques": 99,
+        "views_count": 83,
+        "views_uniques": 62,
+        "clones_count": 147,
+        "clones_uniques": 93,
         "referrers": [
           {
             "referrer": "Google",
-            "count": 44,
-            "uniques": 35
+            "count": 41,
+            "uniques": 38
           },
           {
             "referrer": "chatgpt.com",
@@ -618,6 +633,16 @@
           },
           {
             "referrer": "github.com",
+            "count": 5,
+            "uniques": 4
+          },
+          {
+            "referrer": "Bing",
+            "count": 1,
+            "uniques": 1
+          },
+          {
+            "referrer": "DuckDuckGo",
             "count": 1,
             "uniques": 1
           },
@@ -630,26 +655,26 @@
         "paths": [
           {
             "path": "/jjuanrivvera/canvas-cli",
-            "count": 68,
-            "uniques": 50
+            "count": 71,
+            "uniques": 57
           },
           {
-            "path": "/jjuanrivvera/canvas-cli/issues",
-            "count": 3,
-            "uniques": 3
+            "path": "/jjuanrivvera/canvas-cli/issues/58",
+            "count": 4,
+            "uniques": 4
           },
           {
-            "path": "/jjuanrivvera/canvas-cli/blob/main/.claude-plugin/marketplace.json",
-            "count": 2,
-            "uniques": 2
-          },
-          {
-            "path": "/jjuanrivvera/canvas-cli/actions",
+            "path": "/jjuanrivvera/canvas-cli/blob/main/cmd/canvas/main.go",
             "count": 1,
             "uniques": 1
           },
           {
-            "path": "/jjuanrivvera/canvas-cli/blob/main/cmd/canvas/main.go",
+            "path": "/jjuanrivvera/canvas-cli/commit/92760f2371eaae7a6ec213910b740ce4fc39a0f7",
+            "count": 1,
+            "uniques": 1
+          },
+          {
+            "path": "/jjuanrivvera/canvas-cli/deployments/github-pages",
             "count": 1,
             "uniques": 1
           }
@@ -735,27 +760,22 @@
         }
       ],
       "traffic": {
-        "views_count": 4,
-        "views_uniques": 3,
-        "clones_count": 86,
-        "clones_uniques": 40,
+        "views_count": 3,
+        "views_uniques": 2,
+        "clones_count": 103,
+        "clones_uniques": 45,
         "referrers": [
           {
             "referrer": "github.com",
             "count": 3,
             "uniques": 2
-          },
-          {
-            "referrer": "Google",
-            "count": 1,
-            "uniques": 1
           }
         ],
         "paths": [
           {
             "path": "/jjuanrivvera/garminctl",
-            "count": 4,
-            "uniques": 3
+            "count": 3,
+            "uniques": 2
           }
         ]
       }
@@ -799,12 +819,18 @@
         }
       ],
       "traffic": {
-        "views_count": 0,
-        "views_uniques": 0,
-        "clones_count": 21,
-        "clones_uniques": 10,
+        "views_count": 1,
+        "views_uniques": 1,
+        "clones_count": 43,
+        "clones_uniques": 22,
         "referrers": [],
-        "paths": []
+        "paths": [
+          {
+            "path": "/jjuanrivvera/linkedin-cli",
+            "count": 1,
+            "uniques": 1
+          }
+        ]
       }
     },
     {
@@ -881,32 +907,27 @@
         }
       ],
       "traffic": {
-        "views_count": 7,
-        "views_uniques": 4,
-        "clones_count": 14,
-        "clones_uniques": 9,
+        "views_count": 4,
+        "views_uniques": 3,
+        "clones_count": 24,
+        "clones_uniques": 14,
         "referrers": [
           {
-            "referrer": "Google",
-            "count": 2,
-            "uniques": 2
-          },
-          {
-            "referrer": "github.com",
+            "referrer": "pkg.go.dev",
             "count": 2,
             "uniques": 1
           },
           {
-            "referrer": "pkg.go.dev",
-            "count": 2,
+            "referrer": "Google",
+            "count": 1,
             "uniques": 1
           }
         ],
         "paths": [
           {
             "path": "/jjuanrivvera/lemon-squeezy-cli",
-            "count": 5,
-            "uniques": 3
+            "count": 2,
+            "uniques": 2
           },
           {
             "path": "/jjuanrivvera/lemon-squeezy-cli/actions/workflows/ci.yml",
@@ -927,21 +948,21 @@
       "stars": 0,
       "forks": 0,
       "created_at": "2026-07-18",
-      "downloads_total": 49,
-      "downloads_install": 40,
+      "downloads_total": 58,
+      "downloads_install": 48,
       "by_os": {
         "macOS": 3,
-        "Linux": 8,
-        "Windows": 29
+        "Linux": 9,
+        "Windows": 36
       },
       "by_arch": {
-        "amd64": 38,
+        "amd64": 46,
         "arm64": 2
       },
       "by_type": {
-        "checksum": 9,
+        "checksum": 10,
         "signature": 0,
-        "archive": 39,
+        "archive": 47,
         "sbom": 0,
         "apk": 0,
         "deb": 1,
@@ -956,22 +977,16 @@
         {
           "tag": "v0.1.1",
           "date": "2026-07-30",
-          "downloads": 33
+          "downloads": 41
         }
       ],
       "traffic": {
-        "views_count": 1,
-        "views_uniques": 1,
-        "clones_count": 7,
-        "clones_uniques": 6,
+        "views_count": 0,
+        "views_uniques": 0,
+        "clones_count": 15,
+        "clones_uniques": 13,
         "referrers": [],
-        "paths": [
-          {
-            "path": "/jjuanrivvera/ms365-cli",
-            "count": 1,
-            "uniques": 1
-          }
-        ]
+        "paths": []
       }
     },
     {
@@ -1065,8 +1080,8 @@
       "traffic": {
         "views_count": 0,
         "views_uniques": 0,
-        "clones_count": 93,
-        "clones_uniques": 53,
+        "clones_count": 118,
+        "clones_uniques": 61,
         "referrers": [],
         "paths": []
       }
@@ -1122,8 +1137,8 @@
       "traffic": {
         "views_count": 0,
         "views_uniques": 0,
-        "clones_count": 6,
-        "clones_uniques": 6,
+        "clones_count": 13,
+        "clones_uniques": 12,
         "referrers": [],
         "paths": []
       }
@@ -1207,14 +1222,30 @@
         }
       ],
       "traffic": {
-        "views_count": 3,
-        "views_uniques": 1,
-        "clones_count": 121,
-        "clones_uniques": 52,
-        "referrers": [],
+        "views_count": 7,
+        "views_uniques": 3,
+        "clones_count": 152,
+        "clones_uniques": 68,
+        "referrers": [
+          {
+            "referrer": "jjuanrivvera.github.io",
+            "count": 3,
+            "uniques": 1
+          },
+          {
+            "referrer": "chatgpt.com",
+            "count": 1,
+            "uniques": 1
+          }
+        ],
         "paths": [
           {
             "path": "/jjuanrivvera/slackctl",
+            "count": 4,
+            "uniques": 3
+          },
+          {
+            "path": "/jjuanrivvera/slackctl/issues",
             "count": 1,
             "uniques": 1
           },
@@ -1302,8 +1333,8 @@
       "traffic": {
         "views_count": 0,
         "views_uniques": 0,
-        "clones_count": 120,
-        "clones_uniques": 66,
+        "clones_count": 140,
+        "clones_uniques": 79,
         "referrers": [],
         "paths": []
       }
@@ -1359,8 +1390,8 @@
       "traffic": {
         "views_count": 0,
         "views_uniques": 0,
-        "clones_count": 9,
-        "clones_uniques": 9,
+        "clones_count": 15,
+        "clones_uniques": 10,
         "referrers": [],
         "paths": []
       }
@@ -1371,21 +1402,21 @@
       "stars": 1,
       "forks": 0,
       "created_at": "2026-08-17",
-      "downloads_total": 6,
-      "downloads_install": 3,
+      "downloads_total": 7,
+      "downloads_install": 4,
       "by_os": {
         "macOS": 0,
         "Linux": 3,
-        "Windows": 0
+        "Windows": 1
       },
       "by_arch": {
-        "amd64": 3,
+        "amd64": 4,
         "arm64": 0
       },
       "by_type": {
         "checksum": 3,
         "signature": 0,
-        "archive": 3,
+        "archive": 4,
         "sbom": 0,
         "apk": 0,
         "deb": 0,
@@ -1405,14 +1436,14 @@
         {
           "tag": "v0.1.2",
           "date": "2026-08-18",
-          "downloads": 0
+          "downloads": 1
         }
       ],
       "traffic": {
         "views_count": 0,
         "views_uniques": 0,
-        "clones_count": 334,
-        "clones_uniques": 115,
+        "clones_count": 365,
+        "clones_uniques": 128,
         "referrers": [],
         "paths": []
       }
@@ -1486,12 +1517,24 @@
         }
       ],
       "traffic": {
-        "views_count": 0,
-        "views_uniques": 0,
-        "clones_count": 10,
-        "clones_uniques": 10,
-        "referrers": [],
-        "paths": []
+        "views_count": 1,
+        "views_uniques": 1,
+        "clones_count": 14,
+        "clones_uniques": 11,
+        "referrers": [
+          {
+            "referrer": "Google",
+            "count": 1,
+            "uniques": 1
+          }
+        ],
+        "paths": [
+          {
+            "path": "/jjuanrivvera/wootctl",
+            "count": 1,
+            "uniques": 1
+          }
+        ]
       }
     }
   ]
